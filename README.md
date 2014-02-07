@@ -1,9 +1,9 @@
 SJCEmailValidation
 ==================
 
-Validate an email address by (1) checking that it appears to be correctly formed, and (2) performing a DNS check that its domain portion can be correctly resolved.
+Validate an email address by (1) checking that it appears to be correctly formed, and (2) performing a DNS check that its domain portion can be resolved.
 
-The code is implemented as a category on NSString. To use them, add SJCEmailValidation.h and .m (from /SJCEmailValidation) to your iOS or Mac OS X project. An example iOS project is included under /EmailValidation to demonstrate their use.
+The code is implemented as a category on NSString. To use it, add SJCEmailValidation.h and .m (from /SJCEmailValidation) to your iOS or Mac OS X project. An example iOS project is included under /EmailValidation to demonstrate their use, and there are some basic tests under /EmailValidationTests which run against lists of valid and invalid email addresses.
 
 Simple, synchronous checking of the formatting of the email address can be performed using `sjc_isCorrectlyFormedEmailAddress:` (or `sjc_isCorrectlyFormedEmailAddress` if you aren't bothered with getting a descriptive error back).
 
