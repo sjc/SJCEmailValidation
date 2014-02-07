@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178ABCAB189BB28200DAF0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ABCAA189BB28200DAF0F8 /* Foundation.framework */; };
+		178ABCAD189BB28200DAF0F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ABCAC189BB28200DAF0F8 /* CoreGraphics.framework */; };
+		178ABCAF189BB28200DAF0F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ABCAE189BB28200DAF0F8 /* UIKit.framework */; };
+		178ABCB5189BB28200DAF0F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 178ABCB3189BB28200DAF0F8 /* InfoPlist.strings */; };
+		178ABCB7189BB28200DAF0F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 178ABCB6189BB28200DAF0F8 /* main.m */; };
+		178ABCBB189BB28200DAF0F8 /* SJCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 178ABCBA189BB28200DAF0F8 /* SJCAppDelegate.m */; };
+		178ABCBE189BB28200DAF0F8 /* SJCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178ABCBD189BB28200DAF0F8 /* SJCRootViewController.m */; };
+		178ABCC1189BB28200DAF0F8 /* SJCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178ABCBF189BB28200DAF0F8 /* SJCRootViewController.xib */; };
+		178ABCC3189BB28200DAF0F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178ABCC2189BB28200DAF0F8 /* Images.xcassets */; };
+		178ABCCA189BB28200DAF0F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ABCC9189BB28200DAF0F8 /* XCTest.framework */; };
+		178ABCCB189BB28200DAF0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ABCAA189BB28200DAF0F8 /* Foundation.framework */; };
+		178ABCCC189BB28200DAF0F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ABCAE189BB28200DAF0F8 /* UIKit.framework */; };
+		178ABCD4189BB28200DAF0F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 178ABCD2189BB28200DAF0F8 /* InfoPlist.strings */; };
+		178ABCD6189BB28200DAF0F8 /* EmailValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 178ABCD5189BB28200DAF0F8 /* EmailValidationTests.m */; };
+		178ABCE2189BB29F00DAF0F8 /* NSString+SJCEmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 178ABCE1189BB29F00DAF0F8 /* NSString+SJCEmailValidation.m */; };
+		178ABCE3189BB2AC00DAF0F8 /* NSString+SJCEmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 178ABCE1189BB29F00DAF0F8 /* NSString+SJCEmailValidation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178ABCCD189BB28200DAF0F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178ABC9F189BB28200DAF0F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178ABCA6189BB28200DAF0F8;
+			remoteInfo = EmailValidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178ABCA7189BB28200DAF0F8 /* EmailValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178ABCAA189BB28200DAF0F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		178ABCAC189BB28200DAF0F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		178ABCAE189BB28200DAF0F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		178ABCB2189BB28200DAF0F8 /* EmailValidation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailValidation-Info.plist"; sourceTree = "<group>"; };
+		178ABCB4189BB28200DAF0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		178ABCB6189BB28200DAF0F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		178ABCB8189BB28200DAF0F8 /* EmailValidation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmailValidation-Prefix.pch"; sourceTree = "<group>"; };
+		178ABCB9189BB28200DAF0F8 /* SJCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJCAppDelegate.h; sourceTree = "<group>"; };
+		178ABCBA189BB28200DAF0F8 /* SJCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJCAppDelegate.m; sourceTree = "<group>"; };
+		178ABCBC189BB28200DAF0F8 /* SJCRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJCRootViewController.h; sourceTree = "<group>"; };
+		178ABCBD189BB28200DAF0F8 /* SJCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJCRootViewController.m; sourceTree = "<group>"; };
+		178ABCC0189BB28200DAF0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SJCRootViewController.xib; sourceTree = "<group>"; };
+		178ABCC2189BB28200DAF0F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		178ABCC8189BB28200DAF0F8 /* EmailValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178ABCC9189BB28200DAF0F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		178ABCD1189BB28200DAF0F8 /* EmailValidationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailValidationTests-Info.plist"; sourceTree = "<group>"; };
+		178ABCD3189BB28200DAF0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		178ABCD5189BB28200DAF0F8 /* EmailValidationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailValidationTests.m; sourceTree = "<group>"; };
+		178ABCE0189BB29F00DAF0F8 /* NSString+SJCEmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SJCEmailValidation.h"; sourceTree = "<group>"; };
+		178ABCE1189BB29F00DAF0F8 /* NSString+SJCEmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SJCEmailValidation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178ABCA4189BB28200DAF0F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178ABCAD189BB28200DAF0F8 /* CoreGraphics.framework in Frameworks */,
+				178ABCAF189BB28200DAF0F8 /* UIKit.framework in Frameworks */,
+				178ABCAB189BB28200DAF0F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178ABCC5189BB28200DAF0F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178ABCCA189BB28200DAF0F8 /* XCTest.framework in Frameworks */,
+				178ABCCC189BB28200DAF0F8 /* UIKit.framework in Frameworks */,
+				178ABCCB189BB28200DAF0F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178ABC9E189BB28200DAF0F8 = {
+			isa = PBXGroup;
+			children = (
+				178ABCB0189BB28200DAF0F8 /* EmailValidation */,
+				178ABCCF189BB28200DAF0F8 /* EmailValidationTests */,
+				178ABCA9189BB28200DAF0F8 /* Frameworks */,
+				178ABCA8189BB28200DAF0F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178ABCA8189BB28200DAF0F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178ABCA7189BB28200DAF0F8 /* EmailValidation.app */,
+				178ABCC8189BB28200DAF0F8 /* EmailValidationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178ABCA9189BB28200DAF0F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				178ABCAA189BB28200DAF0F8 /* Foundation.framework */,
+				178ABCAC189BB28200DAF0F8 /* CoreGraphics.framework */,
+				178ABCAE189BB28200DAF0F8 /* UIKit.framework */,
+				178ABCC9189BB28200DAF0F8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		178ABCB0189BB28200DAF0F8 /* EmailValidation */ = {
+			isa = PBXGroup;
+			children = (
+				178ABCDF189BB29F00DAF0F8 /* SJCEmailValidation */,
+				178ABCB9189BB28200DAF0F8 /* SJCAppDelegate.h */,
+				178ABCBA189BB28200DAF0F8 /* SJCAppDelegate.m */,
+				178ABCBC189BB28200DAF0F8 /* SJCRootViewController.h */,
+				178ABCBD189BB28200DAF0F8 /* SJCRootViewController.m */,
+				178ABCBF189BB28200DAF0F8 /* SJCRootViewController.xib */,
+				178ABCC2189BB28200DAF0F8 /* Images.xcassets */,
+				178ABCB1189BB28200DAF0F8 /* Supporting Files */,
+			);
+			path = EmailValidation;
+			sourceTree = "<group>";
+		};
+		178ABCB1189BB28200DAF0F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				178ABCB2189BB28200DAF0F8 /* EmailValidation-Info.plist */,
+				178ABCB3189BB28200DAF0F8 /* InfoPlist.strings */,
+				178ABCB6189BB28200DAF0F8 /* main.m */,
+				178ABCB8189BB28200DAF0F8 /* EmailValidation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		178ABCCF189BB28200DAF0F8 /* EmailValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				178ABCD5189BB28200DAF0F8 /* EmailValidationTests.m */,
+				178ABCD0189BB28200DAF0F8 /* Supporting Files */,
+			);
+			path = EmailValidationTests;
+			sourceTree = "<group>";
+		};
+		178ABCD0189BB28200DAF0F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				178ABCD1189BB28200DAF0F8 /* EmailValidationTests-Info.plist */,
+				178ABCD2189BB28200DAF0F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		178ABCDF189BB29F00DAF0F8 /* SJCEmailValidation */ = {
+			isa = PBXGroup;
+			children = (
+				178ABCE0189BB29F00DAF0F8 /* NSString+SJCEmailValidation.h */,
+				178ABCE1189BB29F00DAF0F8 /* NSString+SJCEmailValidation.m */,
+			);
+			path = SJCEmailValidation;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178ABCA6189BB28200DAF0F8 /* EmailValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178ABCD9189BB28200DAF0F8 /* Build configuration list for PBXNativeTarget "EmailValidation" */;
+			buildPhases = (
+				178ABCA3189BB28200DAF0F8 /* Sources */,
+				178ABCA4189BB28200DAF0F8 /* Frameworks */,
+				178ABCA5189BB28200DAF0F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailValidation;
+			productName = EmailValidation;
+			productReference = 178ABCA7189BB28200DAF0F8 /* EmailValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178ABCC7189BB28200DAF0F8 /* EmailValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178ABCDC189BB28200DAF0F8 /* Build configuration list for PBXNativeTarget "EmailValidationTests" */;
+			buildPhases = (
+				178ABCC4189BB28200DAF0F8 /* Sources */,
+				178ABCC5189BB28200DAF0F8 /* Frameworks */,
+				178ABCC6189BB28200DAF0F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178ABCCE189BB28200DAF0F8 /* PBXTargetDependency */,
+			);
+			name = EmailValidationTests;
+			productName = EmailValidationTests;
+			productReference = 178ABCC8189BB28200DAF0F8 /* EmailValidationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178ABC9F189BB28200DAF0F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SJC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stuart Crook";
+				TargetAttributes = {
+					178ABCC7189BB28200DAF0F8 = {
+						TestTargetID = 178ABCA6189BB28200DAF0F8;
+					};
+				};
+			};
+			buildConfigurationList = 178ABCA2189BB28200DAF0F8 /* Build configuration list for PBXProject "EmailValidation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178ABC9E189BB28200DAF0F8;
+			productRefGroup = 178ABCA8189BB28200DAF0F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178ABCA6189BB28200DAF0F8 /* EmailValidation */,
+				178ABCC7189BB28200DAF0F8 /* EmailValidationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178ABCA5189BB28200DAF0F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178ABCC3189BB28200DAF0F8 /* Images.xcassets in Resources */,
+				178ABCB5189BB28200DAF0F8 /* InfoPlist.strings in Resources */,
+				178ABCC1189BB28200DAF0F8 /* SJCRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178ABCC6189BB28200DAF0F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178ABCD4189BB28200DAF0F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178ABCA3189BB28200DAF0F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178ABCB7189BB28200DAF0F8 /* main.m in Sources */,
+				178ABCBB189BB28200DAF0F8 /* SJCAppDelegate.m in Sources */,
+				178ABCE2189BB29F00DAF0F8 /* NSString+SJCEmailValidation.m in Sources */,
+				178ABCBE189BB28200DAF0F8 /* SJCRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178ABCC4189BB28200DAF0F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178ABCE3189BB2AC00DAF0F8 /* NSString+SJCEmailValidation.m in Sources */,
+				178ABCD6189BB28200DAF0F8 /* EmailValidationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178ABCCE189BB28200DAF0F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178ABCA6189BB28200DAF0F8 /* EmailValidation */;
+			targetProxy = 178ABCCD189BB28200DAF0F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		178ABCB3189BB28200DAF0F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178ABCB4189BB28200DAF0F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		178ABCBF189BB28200DAF0F8 /* SJCRootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178ABCC0189BB28200DAF0F8 /* Base */,
+			);
+			name = SJCRootViewController.xib;
+			sourceTree = "<group>";
+		};
+		178ABCD2189BB28200DAF0F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178ABCD3189BB28200DAF0F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178ABCD7189BB28200DAF0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		178ABCD8189BB28200DAF0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178ABCDA189BB28200DAF0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailValidation/EmailValidation-Prefix.pch";
+				INFOPLIST_FILE = "EmailValidation/EmailValidation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		178ABCDB189BB28200DAF0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailValidation/EmailValidation-Prefix.pch";
+				INFOPLIST_FILE = "EmailValidation/EmailValidation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		178ABCDD189BB28200DAF0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailValidation.app/EmailValidation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailValidation/EmailValidation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmailValidationTests/EmailValidationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		178ABCDE189BB28200DAF0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailValidation.app/EmailValidation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailValidation/EmailValidation-Prefix.pch";
+				INFOPLIST_FILE = "EmailValidationTests/EmailValidationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178ABCA2189BB28200DAF0F8 /* Build configuration list for PBXProject "EmailValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178ABCD7189BB28200DAF0F8 /* Debug */,
+				178ABCD8189BB28200DAF0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178ABCD9189BB28200DAF0F8 /* Build configuration list for PBXNativeTarget "EmailValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178ABCDA189BB28200DAF0F8 /* Debug */,
+				178ABCDB189BB28200DAF0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		178ABCDC189BB28200DAF0F8 /* Build configuration list for PBXNativeTarget "EmailValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178ABCDD189BB28200DAF0F8 /* Debug */,
+				178ABCDE189BB28200DAF0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178ABC9F189BB28200DAF0F8 /* Project object */;
+}
